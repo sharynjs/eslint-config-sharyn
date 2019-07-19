@@ -1,11 +1,14 @@
 {
   "name": "eslint-config-sharyn",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "main": "index.js",
   "repository": "git@github.com:sharynjs/eslint-config-sharyn.git",
   "license": "MIT",
   "peerDependencies": {
+    "@babel/core": "7.x",
     "babel-eslint": "10.x",
+    "babel-plugin-module-resolver": "3.x",
+    "eslint": "6.x",
     "eslint-config-airbnb": "17.x",
     "eslint-config-prettier": "6.x",
     "eslint-import-resolver-babel-module": "5.x",
